@@ -1,9 +1,9 @@
 package com.serenitydojo;
 
 public class Dog {
-    private String name;
-    private toy;
-    private int age;
+    public String name;
+    public String toy;
+    public int age;
 
     // consturctor method
     public Dog(String name, String toy, int age) {
@@ -11,7 +11,7 @@ public class Dog {
         this.toy = toy;
         this.age = age;
     }
-
+//Get Method
     public String getName() {
         return name;
     }
